@@ -1,0 +1,35 @@
+{
+  "global":{
+    "ip":"127.0.0.1",
+    "port":20000
+  },
+  "http":{
+    "ip":"0.0.0.0",
+    "port":1081
+  },
+  "rpc":{
+    "ip":"127.0.0.1",
+    "port":8888
+  },
+  "webSocket":{
+    "ip":"127.0.0.1",
+    "port":43
+  },
+  "mysql":{
+    "conn":"root:root@tcp(127.0.0.1:3306)/hlc?charset=utf8"
+  },
+  "rpcServers":[
+    {
+      "ip":"127.0.0.1",
+      "port":8888
+    }
+  ],
+  "mysqlPoolCount" : 5,
+  "secretKey" : "xoosdj$%&^@sda!@$sf,.?~",
+  "uploadPath":"/tmp/certification/",
+  "whiteIps":[
+    "192.168.0.166",
+    "127.0.0.1",
+    "192.168.0.236"
+  ]
+}
