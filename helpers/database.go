@@ -6,8 +6,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
-
-	_ "github.com/go-sql-driver/mysql"
 )
 
 var Database struct {
