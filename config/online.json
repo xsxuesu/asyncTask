@@ -26,7 +26,7 @@
   ],
   "mysqlPoolCount" : 5,
   "secretKey" : "xoosdj$%&^@sda!@$sf,.?~",
-  "uploadPath":"/var/certification/",
+  "uploadPath":"/home/certification/",
   "whiteIps":[
     "192.168.0.166",
     "127.0.0.1",
